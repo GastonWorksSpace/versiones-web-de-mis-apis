@@ -3,7 +3,7 @@ import {ContenidoPagina} from "./main.js";
 
 const api3 = new ContenidoPagina({
   contenido1:`<div class="contenido">
-                        <h1> Actividad 3 Gestión Operativa en la Nube (Cloud Practitioner)</h1>
+                        <h1 class ="titulo-api"> Actividad 3 Gestión Operativa en la Nube (Cloud Practitioner)</h1>
                         <h2 class="titulo-contenido"> Objetivo </h2>
                         
                         <p> Aplicar los conocimientos adquiridos sobre automatizacion,
@@ -399,49 +399,41 @@ const api3 = new ContenidoPagina({
                       <li>Supervisar continuamente para detectar y responder rápidamente ante cualquier 
                           incidente de seguridad </li>
                   </ul>`,
- contenido4:`  <h4 class ="titulo-glosario-y-fuentes"> Glosario </h4>
-                                 <p>
-                                     <strong> WS CloudTrail: </strong> Es un servicio de Amazon Web Services (AWS) que registra la actividad de los usuarios, 
-                                     las acciones realizadas por los servicios de AWS y los cambios en los recursos de una cuenta permitiendo saber cuándo, dónde y quien realizo x acción.
-                                 </p>
-                                 
-                                 <p>
-                                     <strong> CloudWatch Logs: </strong> Permite centralizar los registros de todos los sistemas, aplicaciones y servicios de AWS como ES2, pudiendo buscar/filtrarlos 
-                                     y usar los mismos para configurar y crear alertas que se activen cuando aparezcan estos
-                                 </p>
-                                 
-                                 <p>
-                                     <strong> Autenticación Multifactor (MFA): </strong>  Método de seguridad que requiere dos o más formas de verificación de identidad para que los usuarios accedan a una cuenta, 
-                                     aplicación o sistema, agregando capas de protección más allá de una simple contraseña. 
-                                     Los factores comunes incluyen algo que sabes (contraseña), algo que tienes (teléfono, token) y algo que eres (huella dactilar, reconocimiento facial),
-                                     dificultando el acceso no autorizado incluso si las credenciales son robadas.
-                                 </p>
-                                 
-                                 <p>
-                                     <strong> Logs: </strong> son registros de actividades, eventos y operaciones
-                                     que ocurren dentro de sistemas informáticos, redes, aplicaciones y dispositivos.
-                                 </p>
-                                 
-                                 <h4 class="titulo-glosario-y-fuentes">Fuentes </h4>
-                                 <a  class ="link-fuentes" href="https://copilot.microsoft.com/chats/xhCMCmJW6SjBQ2ZKRtCe5"> Copilot</a>
-                                 <a  class ="link-fuentes" href="https://aws.amazon.com/es/ebs/snapshots/">  Amazon AWS</a>
-                                 <a  class ="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&q=Autenticaci%C3%B3n+multifactor+%28MFA%29%3A"> Gemini (IA de Google)</a>
-                                 <a  class ="link-fuentes" href="https://www.google.com/search?q=CloudWatch+Logs+que+es&client=firefox-b-d&sca_esv=0f9b108d57af51d0&sxsrf=AE3TifNnoXLdnn_CYGp0vGjGAMvbJvDlyA%3A1756854382610&ei=bni3aL2AJc3X1sQPmID0AQ&ved=0ahUKEwi975bLmLuPAxXNq5UCHRgAPQAQ4dUDCBA&uact=5&oq=CloudWatch+Logs+que+es&gs_lp=Egxnd3Mtd2l6LXNlcnAiFkNsb3VkV2F0Y2ggTG9ncyBxdWUgZXMyBRAhGKABSJcKULACWLUIcAF4AZABAJgBgAGgAYsGqgEDMS42uAEDyAEA-AEBmAIIoALxBsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhkQLhiABBiwAxjRAxhDGMcBGMgDGIoF2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICBRAAGIAEwgIGEAAYFhgewgIHEAAYgAQYE8ICChAAGBMYFhgKGB7CAggQABgTGBYYHsICCBAAGBYYChgemAMAiAYBkAYSugYGCAEQARgJkgcDMS43oAewJLIHAzAuN7gH1wbCBwcyLTMuNC4xyAdM&sclient=gws-wiz-serp"> Gemini (IA de Google) </a>
-                                 <a  class ="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&q=Que+alertas+se+pueden+configurar+en+el+servicio+de+coludwatch "> Gemini (IA de Google) </a>
-                                 <a  class ="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&cs=1&sca_esv=0f9b108d57af51d0&sxsrf=AE3TifOE8oCshTpiuga-nt9uh86oyUvm5w%3A1756852195558&q=CloudWatch+Logs&sa=X&ved=2ahUKEwiqo-63kLuPAxWhPbkGHc04IVUQxccNegQIFBAB&mstk=AUtExfCXrLTPojrlK6RTaywnkP34OF5V7nGdqFlDrDmt9i2ilJ-7QEOd3Ux97NR0RFw61h8NePp6GK9Fep1IRWAJuLmPkpji2krLzZi6zGKMmLOPLI6MKWKcXsMz2-UfR7mitgYh6_MtOmOIFvZXMlHm7vwmHq8HiwTDjZ4Yt0eEoWhQv6IbYvtnoNWKuAp0_gLiI-MRXOqwgqz4GvKXuqRDsuU6N-v3-og_-Ro42gM9GzqgjBd5B4CV3HMzqjm83zXjEe5n-EHKqqxxmb-64Pz6ihs1&csui=3 "> Gemini (IA de Google) </a>
-                                 <a  class ="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&q=los+logs+son+registros  "> Gemini (IA de Google) </a>
-                                 <a class="link-fuentes" href=" https://www.google.com/search?client=firefox-b-d&q=cloudtrail+que+es "> Gemini (IA de Google)</a>
-                                 <a class="link-fuentes" href="https://docs.aws.amazon.com/es_es/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html">  Amazon AWS </a>
-                                 <a class="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&q=las+instantaneas+son+lo+mismo+que+las+copias+de+seguridad+en+AWS"> Gemini (IA de Google) </a>
-                                 <a class="link-fuentes" href="https://docs.aws.amazon.com/es_es/ebs/latest/userguide/what-is-ebs.html "> Amazon AWS </a>           <article>
-                    <div class="box-links-de-api">
-                        <h2> Descargar API</h2>
-                        
-                        <div>
-                            <i  class="fa-solid fa-file-arrow-down"> </i>
-                            <a id ="api-3-gestion-operativa-en-la-nube" class ="api-gestion-operativa-en-la-nube" href="https://drive.google.com/file/d/114usn_Ci0rbJ0gAcSALivkDF0Z9td0Ax/view"> GastonMelzi-APIM3</a>
-                        </div>
-                    </div>
-            </article> `});
+  contenido5:`<div class="contenedor-glosario"> 
+                <h4 class ="titulo-glosario-y-fuentes"> Glosario </h4>
+                  <p> <strong> WS CloudTrail: </strong> Es un servicio de Amazon Web Services (AWS) que registra la actividad de los usuarios, 
+                      las acciones realizadas por los servicios de AWS y los cambios en los recursos de una cuenta permitiendo saber cuándo, dónde y quien realizo x acción. </p>
+                  <p><strong> CloudWatch Logs: </strong> Permite centralizar los registros de todos los sistemas, aplicaciones y servicios de AWS como ES2, pudiendo buscar/filtrarlos 
+                      y usar los mismos para configurar y crear alertas que se activen cuando aparezcan estos </p>
+                  <p> <strong> Autenticación Multifactor (MFA): </strong>  Método de seguridad que requiere dos o más formas de verificación de identidad para que los usuarios accedan a una cuenta, 
+                      aplicación o sistema, agregando capas de protección más allá de una simple contraseña. 
+                      Los factores comunes incluyen algo que sabes (contraseña), algo que tienes (teléfono, token) y algo que eres (huella dactilar, reconocimiento facial),
+                      dificultando el acceso no autorizado incluso si las credenciales son robadas.</p>
+                  <p> <strong> Logs: </strong> son registros de actividades, eventos y operaciones
+                      que ocurren dentro de sistemas informáticos, redes, aplicaciones y dispositivos.</p>
+               </div> `,
+  contenido6: ` <div class ="contenedor-fuentes">
+                  <h4 class="titulo-glosario-y-fuentes">Fuentes </h4>
+                  <a  class ="link-fuentes" href="https://copilot.microsoft.com/chats/xhCMCmJW6SjBQ2ZKRtCe5"> Copilot</a>
+                  <a  class ="link-fuentes" href="https://aws.amazon.com/es/ebs/snapshots/">  Amazon AWS</a>
+                  <a  class ="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&q=Autenticaci%C3%B3n+multifactor+%28MFA%29%3A"> Gemini (IA de Google)</a>
+                  <a  class ="link-fuentes" href="https://www.google.com/search?q=CloudWatch+Logs+que+es&client=firefox-b-d&sca_esv=0f9b108d57af51d0&sxsrf=AE3TifNnoXLdnn_CYGp0vGjGAMvbJvDlyA%3A1756854382610&ei=bni3aL2AJc3X1sQPmID0AQ&ved=0ahUKEwi975bLmLuPAxXNq5UCHRgAPQAQ4dUDCBA&uact=5&oq=CloudWatch+Logs+que+es&gs_lp=Egxnd3Mtd2l6LXNlcnAiFkNsb3VkV2F0Y2ggTG9ncyBxdWUgZXMyBRAhGKABSJcKULACWLUIcAF4AZABAJgBgAGgAYsGqgEDMS42uAEDyAEA-AEBmAIIoALxBsICChAAGLADGNYEGEfCAg0QABiABBiwAxhDGIoFwgIOEAAYsAMY5AIY1gTYAQHCAhkQLhiABBiwAxjRAxhDGMcBGMgDGIoF2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICBRAAGIAEwgIGEAAYFhgewgIHEAAYgAQYE8ICChAAGBMYFhgKGB7CAggQABgTGBYYHsICCBAAGBYYChgemAMAiAYBkAYSugYGCAEQARgJkgcDMS43oAewJLIHAzAuN7gH1wbCBwcyLTMuNC4xyAdM&sclient=gws-wiz-serp"> Gemini (IA de Google) </a>
+                  <a  class ="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&q=Que+alertas+se+pueden+configurar+en+el+servicio+de+coludwatch "> Gemini (IA de Google) </a>
+                  <a  class ="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&cs=1&sca_esv=0f9b108d57af51d0&sxsrf=AE3TifOE8oCshTpiuga-nt9uh86oyUvm5w%3A1756852195558&q=CloudWatch+Logs&sa=X&ved=2ahUKEwiqo-63kLuPAxWhPbkGHc04IVUQxccNegQIFBAB&mstk=AUtExfCXrLTPojrlK6RTaywnkP34OF5V7nGdqFlDrDmt9i2ilJ-7QEOd3Ux97NR0RFw61h8NePp6GK9Fep1IRWAJuLmPkpji2krLzZi6zGKMmLOPLI6MKWKcXsMz2-UfR7mitgYh6_MtOmOIFvZXMlHm7vwmHq8HiwTDjZ4Yt0eEoWhQv6IbYvtnoNWKuAp0_gLiI-MRXOqwgqz4GvKXuqRDsuU6N-v3-og_-Ro42gM9GzqgjBd5B4CV3HMzqjm83zXjEe5n-EHKqqxxmb-64Pz6ihs1&csui=3 "> Gemini (IA de Google) </a>
+                  <a  class ="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&q=los+logs+son+registros  "> Gemini (IA de Google) </a>
+                  <a class="link-fuentes" href=" https://www.google.com/search?client=firefox-b-d&q=cloudtrail+que+es "> Gemini (IA de Google)</a>
+                  <a class="link-fuentes" href="https://docs.aws.amazon.com/es_es/AmazonCloudWatch/latest/logs/WhatIsCloudWatchLogs.html">  Amazon AWS </a>
+                  <a class="link-fuentes" href="https://www.google.com/search?client=firefox-b-d&q=las+instantaneas+son+lo+mismo+que+las+copias+de+seguridad+en+AWS"> Gemini (IA de Google) </a>
+                  <a class="link-fuentes" href="https://docs.aws.amazon.com/es_es/ebs/latest/userguide/what-is-ebs.html "> Amazon AWS </a>
+  `,
+  contenido7: `<article>
+                <div class="box-links-de-api">
+                  <h2> Descargar API</h2>
+                  <div>
+                    <i  class="fa-solid fa-file-arrow-down"> </i>
+                    <a id ="api-3-gestion-operativa-en-la-nube" class ="api-gestion-operativa-en-la-nube" href="https://drive.google.com/file/d/114usn_Ci0rbJ0gAcSALivkDF0Z9td0Ax/view"> GastonMelzi-APIM3</a>
+                  </div>
+               </div>
+        </article>`});
 
 export default api3;

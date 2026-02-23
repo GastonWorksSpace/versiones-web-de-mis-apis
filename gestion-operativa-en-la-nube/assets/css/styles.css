@@ -127,17 +127,20 @@ header .btn button:hover {
     background-color: #fff;
     margin: 10px 20px;
 }
-.contenido {
+#contenidoApis {
     align-items: center;
     justify-content: center;
-
-
-
+    width: 100%;
+    padding: 10px;
 }
+
+
 article {
     padding: 0 15% ;
 
 }
+
+
 
 /*Titulos de pagina */
 
@@ -162,7 +165,7 @@ article {
 }
 .titulo-contenido {
    font-size: 30px;
-   margin: 10px;
+   margin-bottom: 30px;
    border-bottom: solid 4px #E95B2B;
 
 }
@@ -179,6 +182,14 @@ article {
     
 }
 
+/* Estilos de todos los titulares que digan ventajas y desventajas*/
+.titulo-ventajas::before {
+    content: "✅";
+    
+}
+.titulo-desventajas::before {
+    content:"❌";
+}
 
 /* Contenido del texto */
 p {
@@ -196,6 +207,7 @@ li {
     margin-left: 11px;
     
 }
+
 
 /*Imagenes del contenido */
 .imagen-contenido {
@@ -293,7 +305,7 @@ li {
 
 .box-links-de-api h2 {
    font-size: 29px;
-   margin: 10px 130px;
+   margin: 10px 150px;
    border-bottom: solid 4px #E95B2B;
    
 }
@@ -303,7 +315,7 @@ li {
       max-width: 463.2px;
       max-height: 400px;
       text-align: center;
-      margin: auto;
+      margin: 50%;
       margin-top: 20px;
 
 }
@@ -350,15 +362,76 @@ li {
 }
 
 /* Estilos de las listas */
-ul {margin-left: 60px;
+ul {margin-left: 7px;
    margin-bottom: 0;
+   
 }
 
 li{
     margin-bottom: 0;
+    margin-top: 0;
 }
 
 
+.lista-apartados-de-actividad {
+    list-style-type: square;
+}
+
+.lista-consignas-de-actividad {
+    list-style-type: disc;
+}
+.lista-sub-apartados-de-actividad {
+    list-style-type: circle;
+}
+
+.lista-respuestas-actividad {
+    list-style-type: disc;
+}
+.lista-sub-sub-apartados-de-actividad li::marker {
+    list-style: none;
+    content: "❖";
+    font-size: 15px;
+}
+
+
+
+.listas-con-flecha li {
+    list-style: none;
+    background-image: url("../img/icono-listas-con-flechas.ico") ;
+    background-repeat: no-repeat;
+    
+    background-size: 20px;
+    background-position: -8px  20px;
+    margin:0;
+}
+
+
+
+
+.lista-ventajas li::marker {
+   list-style-type: square;
+   color: green;
+   
+}
+.lista-desventajas li::marker {
+    list-style-type: square; 
+    color:red;
+
+}
+
+.listas-aclaracion  {
+    list-style-type: none;
+    margin: 0;
+
+
+
+}
+
+.listas-aclaracion li::before {
+    margin: 0;
+    padding: 0;
+    content: "✱";
+}
 /* Estilos de los parrafos */
 
 p {margin-top: 0;}
@@ -366,3 +439,52 @@ p {margin-top: 0;}
 ul p {
     margin-left: 12px;
 }
+
+
+/* Estilos tabla */
+.tabla-contenido {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px  rgba(0,0,0, 0.15);
+
+}
+
+.tabla-contenido thead tr {
+    background-color: #213B4A;
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+}
+
+.tabla-contenido th  {
+    padding: 9px 10px;
+    height: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+.tabla-contenido td {
+    padding: 12px  15px;
+    font-size:12px;
+    text-align: center;
+
+
+}
+
+
+.tabla-contenido tbody tr {
+    border-bottom: 1px solid #D3D7DA;
+}
+.tabla-contenido tbody tr:nth-of-type(event) {
+    background-color: #f3f3f3;
+}
+
+.tabla-contenido tbody tr:last-of-type {
+    border-bottom: 2px solid #213B4A;
+}
+
+ 
