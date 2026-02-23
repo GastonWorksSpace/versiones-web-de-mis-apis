@@ -24,9 +24,6 @@ bloques.forEach(bloque => {
 });
 
 
-
-
-
 // Clase para crear objetos que tendran el contenido de cada parte de la pagina 
 export class ContenidoPagina {
   constructor ({contenido1 = "",contenido2 ="",contenido3 = "",contenido4 = ""}) {
